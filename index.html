@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- font awesome library  -->
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- left shape  -->
+    <div class="shape"></div>
+
+    <!-- main container -->
+    <main>
+      <div class="mobile-app">
+        <!-- profile info  -->
+        <div class="profile__info">
+          <div class="arrow-info">
+            <i class="fa-solid fa-angle-left"></i>
+            <div class="profile__info-description">
+              <img src="images/avatar.jpg" alt="profile-img" />
+              <div class="profile-name-active">
+                <h3>Samuel Green</h3>
+                <p>Available to Walk</p>
+              </div>
+            </div>
+          </div>
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+        <!-- messages -->
+        <div class="messages">
+          <p class="sending-message">
+            That sounds great. I’d be happy with that.
+          </p>
+          <p class="sending-message">
+            Could you send over some pictures of your dog, please?
+          </p>
+          <div class="receiving-message images">
+            <img src="images/dog-image-1.jpg" alt="dog image" />
+            <img src="images/dog-image-2.jpg" alt="dog image" />
+            <img src="images/dog-image-3.jpg" alt="dog image" />
+          </div>
+          <p class="receiving-message">
+            Here are a few pictures. She’s a happy girl!
+          </p>
+          <p class="receiving-message">Can you make it?</p>
+          <p class="sending-message">
+            She looks so happy! The time we discussed works. How long shall I
+            take her out for?
+          </p>
+          <div class="sending-message offer">
+            <span class="circle"></span>
+            <span class="period">30 minute walk</span>
+            <span class="price">$29</span>
+          </div>
+          <div class="sending-message offer">
+            <span class="circle"></span>
+            <span class="period">1 hour walk</span>
+            <span class="price">$49</span>
+          </div>
+          <label class="input">
+            <input type="text" placeholder="Type a message…" />
+            <i class="fa-solid fa-angle-right"></i>
+          </label>
+        </div>
+      </div>
+
+      <!-- Text section -->
+      <div class="text">
+        <h1>Simple booking</h1>
+        <p>
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
